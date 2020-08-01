@@ -4,6 +4,8 @@ LABEL maintainer="ywake42 <ywake@student.42tokyo.jp>"
 
 RUN	apt update &&\
 	apt install -y vim git \
+	# 'ifconfig'etc
+	net-tools \
 	# 'strings' 'objdump'etc
 	binutils \
 	# 'hexdump'
