@@ -6,6 +6,8 @@ RUN	apt-get update \
 &&	apt-get install -y vim git curl\
 	# 'ifconfig'etc
 	net-tools \
+	# 'nc'
+	netcat \
 	# 'strings' 'objdump'etc
 	binutils \
 	# 'hexdump'
