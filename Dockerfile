@@ -12,6 +12,8 @@ RUN	apt-get update \
 	binutils \
 	# 'hexdump'
 	bsdmainutils \
+	# trace系
+	strace ltrace \
 	# 'exiftool'
 	exiftool \
 	# 'zipinfo'etc
