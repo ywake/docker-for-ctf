@@ -4,6 +4,8 @@ LABEL maintainer="ywake42 <ywake@student.42tokyo.jp>"
 
 RUN	apt-get update \
 &&	apt-get install -y vim git curl\
+	# language
+	python3 \
 	# 'ifconfig'etc
 	net-tools \
 	# 'nc'
