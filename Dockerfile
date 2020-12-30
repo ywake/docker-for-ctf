@@ -5,7 +5,7 @@ LABEL maintainer="ywake42 <ywake@student.42tokyo.jp>"
 RUN	apt-get update \
 &&	apt-get install -y vim git curl\
 	# for 32bit ELF
-	lib32z1
+	lib32z1 \
 	# language
 	python3 \
 	# 'ifconfig'etc
